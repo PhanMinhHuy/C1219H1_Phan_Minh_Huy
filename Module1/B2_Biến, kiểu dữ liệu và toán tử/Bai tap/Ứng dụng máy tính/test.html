@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>Caculator</h3>
+<input type="number" id="x">
+<input type="number" id="y">
+<br>
+<button onclick="caculator()" ; id="hd" value="5">Addition(+)</button>
+<button onclick="caculator()" ; id="hd" value="2">Subtraction(-)</button>
+<button onclick="caculator()" ; id="hd" value="3">Multiplication(x)</button>
+<button onclick="caculator()" ; id="hd" value="4">Division(/)</button>
+
+<p id="kq"></p>
+<script>
+
+
+    function caculator()
+    {
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+        let hd = document.getElementById("hd").value;
+        let kq = document.getElementById("kq");
+
+       if (hd == 1)
+       {
+           kq.innerText = x+y;
+       }
+       if (hd == 2)
+       {
+           kq.innerText = x-y;
+       }
+       if (hd == 3)
+       {
+           kq.innerText = x*y;
+       }
+       if (hd == 4)
+       {
+           kq.innerText = x/y;
+       }
+
+    }
+
+</script>
+
+</body>
+</html>

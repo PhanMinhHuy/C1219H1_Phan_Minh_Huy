@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let name = prompt(" Enter name: ");
+    let Id = prompt(" Enter Id: ");
+    let birthday = prompt(" Enter birthday: ");
+    let email = prompt(" Enter email: ");
+    let address = prompt(" Enter address: ");
+    let type = prompt(" Enter type: \n (Diamond, Platinum, Gold, Silver, Member) ");
+    let discount = parseFloat(prompt(" Enter discount: "));
+    let numberOfGuests = prompt(" Enter number of guests: ");
+    let rentDay = parseInt(prompt(" Enter rent days: "));
+    let typeRoom = prompt(" Enter type Room: \n (Villa, House, Room) ");
+    let typeService = prompt(" Enter type Servise: \n (Vip, Business,  Normal) ");
+    let totalPayments;
+    switch (typeRoom) {
+        case "Villa":
+            totalPayments = 500 * rentDay * (1 - discount / 100);
+            break;
+        case "House":
+            totalPayments = 300 * rentDay * (1 - discount / 100);
+            break;
+        case "Room":
+            totalPayments = 100 * rentDay * (1 - discount / 100);
+            break;
+
+    }
+    alert("Information of customer: \n" +
+        "Name: " + name +
+        "\nId: " + Id +
+        "\nBirthday: " + birthday +
+        "\nEmail: " + email +
+        "\nAddress: " + address +
+        "\nType: " + type +
+        "\nDiscount: " + discount +
+        "\nNumber Of Guests: " + numberOfGuests +
+        "\nRent Day: " + rentDay +
+        "\nType Room: " + typeRoom +
+        "\nType Service: " + typeService +
+        "\nTotal Payments: " + totalPayments);
+
+
+</script>
+
+</body>
+</html>

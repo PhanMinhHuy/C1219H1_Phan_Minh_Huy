@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>Caculator</h3>
+<input type="number" id="x">
+<input type="number" id="y">
+<br>
+<button onclick="Addition()" ;>Addition(+)</button>
+<button onclick="Subtraction()" ;>Subtraction(-)</button>
+<button onclick="Multiplication()" ;>Multiplication(x)</button>
+<button onclick="Division()" ;>Division(/)</button>
+
+<p id="kq"></p>
+<script>
+
+
+    function Addition() {
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+        let kq = document.getElementById("kq");
+        kq.innerText = x + y;
+    }
+
+    function Subtraction() {
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+        let kq = document.getElementById("kq");
+        kq.innerText = x - y;
+    }
+
+    function Multiplication() {
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+        let kq = document.getElementById("kq");
+        kq.innerText = x * y;
+    }
+
+    function Division() {
+        let x = parseFloat(document.getElementById("x").value);
+        let y = parseFloat(document.getElementById("y").value);
+        let kq = document.getElementById("kq");
+        kq.innerText = x / y;
+    }
+</script>
+
+</body>
+</html>
