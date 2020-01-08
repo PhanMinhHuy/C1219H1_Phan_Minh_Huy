@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c418e21a-fcf9-4b8f-943d-9f13c1406f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/Câu lệnh switch-case/switchcase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/DoYouLoveMe/DoYouLoveMe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/Máy tính đơn giản/calculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/Máy tính đơn giản/calculator2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/Máy tính đơn giản/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B3_Cấu trúc điều kiện/Bài tập/Tính chỉ số cân nặng của cơ thể/weight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B4_Cấu trúc lập/Bài tập/Hiển thị các số nguyên tố đầu tiên/SoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B4_Cấu trúc lập/Bài tập/Luyện tập vòng lặp 01/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B4_Cấu trúc lập/Bài tập/Luyện tập vòng lặp 01/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B4_Cấu trúc lập/Bài tập/Sinh bảng cửu chương/BCC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/Sử dụng các hàm có sẵn của mảng/B1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/Sử dụng các hàm có sẵn của mảng/B3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/Sử dụng các hàm có sẵn của mảng/b2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/TicTacToe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/TuDien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Thực hành/DaoNguocCacPhanTuTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Thực hành/GTLN.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Thực hành/TaoBanCoCaro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Thực hành/TaoVaThaoTacVoiMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B5_Mảng/Thực hành/TimGiaTriTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/TicTacToe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+            <state relative-caret-position="278">
+              <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="64" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -58,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="335">
+              <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -177,13 +155,6 @@
               <item name="C1219H1_Phan_Minh_Huy" type="b2602c69:ProjectViewProjectNode" />
               <item name="C1219H1_Phan_Minh_Huy" type="462c0819:PsiDirectoryNode" />
               <item name="Module1" type="462c0819:PsiDirectoryNode" />
-              <item name="B5_Mảng" type="462c0819:PsiDirectoryNode" />
-              <item name="Bài tập" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="C1219H1_Phan_Minh_Huy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C1219H1_Phan_Minh_Huy" type="462c0819:PsiDirectoryNode" />
-              <item name="Module1" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -214,10 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TicTacToe.html">
-    <configuration name="B3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Bài tập/Sử dụng các hàm có sẵn của mảng/B3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.YeuCau3.html">
     <configuration name="GTLN.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Thực hành/GTLN.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -233,13 +201,16 @@
     <configuration name="TuDien.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Bài tập/TuDien.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="YeuCau3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/CaseStudy/YeuCau3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.YeuCau3.html" />
         <item itemvalue="JavaScript Debug.TicTacToe.html" />
         <item itemvalue="JavaScript Debug.TuDien.html" />
         <item itemvalue="JavaScript Debug.TaoBanCoCaro.html" />
         <item itemvalue="JavaScript Debug.GTLN.html" />
-        <item itemvalue="JavaScript Debug.B3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -269,12 +240,12 @@
       <workItem from="1578274268095" duration="10258000" />
       <workItem from="1578360171942" duration="7493000" />
       <workItem from="1578418295510" duration="2528000" />
-      <workItem from="1578446142936" duration="4758000" />
+      <workItem from="1578446142936" duration="5313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92904000" />
+    <option name="totallyTimeSpent" value="93459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,7 +257,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1956378" />
@@ -308,7 +279,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20687376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1956378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -593,15 +564,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/B5_Mảng/Bài tập/TicTacToe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        <state relative-caret-position="278">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="64" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="335">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
         </state>
       </provider>
     </entry>

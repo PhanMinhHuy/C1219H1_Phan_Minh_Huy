@@ -10,15 +10,15 @@
     let name = prompt(" Enter name: ");
     let Id = prompt(" Enter Id: ");
     let regexId = /^[0-9]+$/g;
-    if (regexId.test(Id) === false)
+    while (regexId.test(Id) === false)
         Id = prompt("Failed !!\nEnter Id again: ");
     let birthday = prompt(" Enter birthday:        (MM/DD/YYYY)");
     let regexBirthday = /^\d\d\/\d\d\/\d\d\d\d$/g;
-    if (regexBirthday.test(birthday) === false)
+    while (regexBirthday.test(birthday) === false)
         birthday = prompt("Failed !!\nEnter birthday again:        (MM/DD/YYYY)");
     let email = prompt(" Enter email: ");
     let regexEmail = /^([a-zA-Z0-9_\.])+\@([a-zA-Z0-9])+(\.([a-z0-9])+)+$/g;
-    if (regexEmail.test(email) === false)
+    while (regexEmail.test(email) === false)
         email = prompt("Failed !!\nEnter Email again: ");
     let address = prompt(" Enter address: ");
     let type = prompt(" Enter type: \n (Diamond, Platinum, Gold, Silver, Member) ");
