@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<h1>Do you love me?</h1>
+<input type="button" value="YES" onclick="yes()" >
+<input type="button" id="htNo" value=" NO " onmouseover="no()" style="position: absolute">
+<script>
+    function yes() {
+        alert("<3");
+    }
+    function no() {
+        let x = Math.floor(Math.random() * window.innerHeight);
+        let y = Math.floor(Math.random() * window.innerWidth);
+        document.getElementById("htNo").style.top = x + "px";
+        document.getElementById("htNo").style.left = y + "px";
+    }
+
+</script>
+
 </body>
 </html>

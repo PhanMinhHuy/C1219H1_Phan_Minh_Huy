@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<h3>Tic tac toe</h3>
+<p id="ticTacToe"></p>
+<input type="button" value="Player 1" onclick="changeValue('x')">
+<input type="button" value="Player 2" onclick="changeValue('0')">
+<script>
+    let b = document.getElementById("ticTacToe");
+    let board = [];
+    let data = "";
+    for (let i = 0; i < 10; i++) {
+        board[i] = [".", ".", ".", ".", ".", ".", ".", ".", ".", "."];
+    }
+
+    for (let i = 0; i < 10; i++) {
+        data += "<br>";
+        for (let j = 0; j < 10; j++) {
+            data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+        }
+    }
+    b.innerHTML = data;
+    // for (let i = 0; i < 10; i++) {
+    //     for (let j = 0; j < 10; j++) {
+    //         if (board[i][j] === board[i + 1][j] === board[i + 2][j] === board[i + 3][j] === board[i + 4][j]) {
+    //             if (board[i] === "x")
+    //                 alert("Player 1 WWin");
+    //             else alert("Player 2 WWin");
+    //         }
+    //         if (board[i][j] === board[i][j + 1] === board[i][j + 2] === board[i][j + 3] === board[i][j + 4]) {
+    //             if (board[i] === "x")
+    //                 alert("Player 1 WWin");
+    //             else alert("Player 2 WWin");
+    //         }
+    //         if (board[i][j] === board[i + 1][j + 1] === board[i + 2][j + 2] === board[i + 3][j + 3] === board[i + 4][j + 4]) {
+    //             if (board[i] === "x")
+    //                 alert("Player 1 WWin");
+    //             else alert("Player 2 WWin");
+    //         }
+    //         if (board[i][j] === board[i - 1][j - 1] === board[i - 2][j - 2] === board[i - 3][j - 3] === board[i - 4][j - 4]) {
+    //             if (board[i] === "x")
+    //                 alert("Player 1 WWin");
+    //             else alert("Player 2 WWin");
+    //         }
+    //     }
+    // }
+
+    function changeValue(x) {
+        let positionX = prompt("X: ");
+        let positionY = prompt("Y: ");
+        data = "";
+        board[positionX][positionY] = x;
+        for (let i = 0; i < 10; i++) {
+            data += "<br>";
+            for (let j = 0; j < 10; j++) {
+                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                if (board[i][j] === board[i + 1][j] === board[i + 2][j] === board[i + 3][j] === board[i + 4][j])
+                    if (board[i] === "x")
+                        alert("Player 1 WWin");
+                    else alert("Player 2 WWin");
+                if (board[i][j] === board[i][j + 1] === board[i][j + 2] === board[i][j + 3] === board[i][j + 4])
+                    if (board[i] === "x")
+                        alert("Player 1 WWin");
+                    else alert("Player 2 WWin");
+
+                }
+            }
+        }
+        b.innerHTML = "<hr>" + data;
+</script>
 </body>
 </html>

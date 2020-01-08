@@ -2,9 +2,166 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let name = "Phan Minh Huy";
+    let Id = " 201786249 ";
+    let birthday = " 15-09-99 ";
+    let email = " phanminhhuy1509@gmail.com ";
+    let address = " Cam Le - Da nang ";
+    let type = " Gold ";
+    let discount = 50;
+    let numberOfGuests = 4;
+    let rentDay = 10;
+    let typeRoom = "Room";
+    let typeService = "Vip";
+    let totalPayments;
+
+    let choose = prompt(
+        "1. Show information: \n" +
+        "2. Edit information: \n" +
+        "3. Show the amount to be paid after discount \n" +
+        "4. Show"
+    );
+    while (choose !== "4") {
+        switch (choose) {
+            case "1":
+                alert("Information of customer: \n" +
+                    "Name: " + name +
+                    "\nId: " + Id +
+                    "\nBirthday: " + birthday +
+                    "\nEmail: " + email +
+                    "\nAddress: " + address +
+                    "\nType: " + type +
+                    "\nDiscount: " + discount +
+                    "\nNumber Of Guests: " + numberOfGuests +
+                    "\nRent Day: " + rentDay +
+                    "\nType Room: " + typeRoom +
+                    "\nType Service: " + typeService);
+                break;
+            case "2":
+                let chooseEdit = prompt("Edit information customer: " +
+                    "\n1. Name: " + name +
+                    "\n2. Id: " + Id +
+                    "\n3. Birthday: " + birthday +
+                    "\n4. Email: " + email +
+                    "\n5. Address: " + address +
+                    "\n6. Type: " + type +
+                    "\n7. Discount: " + discount +
+                    "\n8. Number Of Guests: " + numberOfGuests +
+                    "\n9. Rent Day: " + rentDay +
+                    "\n10. Type Room: " + typeRoom +
+                    "\n11. Type Service: " + typeService);
+                switch (chooseEdit) {
+                    case "1":
+                        name = prompt("Enter Name edit:");
+                        break;
+                    case "2":
+                        Id = prompt("Enter Id edit:");
+                        break;
+                    case "3":
+                        birthday = prompt("Enter Birthday edit:");
+                        break;
+                    case "5":
+                        address = prompt("Enter Address edit:");
+                        break;
+                    case "6":
+                        type = prompt("Enter Type edit:");
+                        break;
+                    case "7":
+                        discount = prompt("Enter Discount edit:");
+                        break;
+                    case "8":
+                        numberOfGuests = prompt("Enter Number Of Guests edit:");
+                        break;
+                    case "9":
+                        rentDay = prompt("Enter Rent Day edit:");
+                        break;
+                    case "10":
+                        typeRoom = prompt("Enter Type Room edit:");
+                        break;
+                    case "11":
+                        typeService = prompt("Enter Type Service edit:");
+                        break;
+                    default:
+                        alert("Failed");
+                        break;
+                }
+                alert("Information of customer: \n" +
+                    "Name: " + name +
+                    "\nId: " + Id +
+                    "\nBirthday: " + birthday +
+                    "\nEmail: " + email +
+                    "\nAddress: " + address +
+                    "\nType: " + type +
+                    "\nDiscount: " + discount +
+                    "\nNumber Of Guests: " + numberOfGuests +
+                    "\nRent Day: " + rentDay +
+                    "\nType Room: " + typeRoom +
+                    "\nType Service: " + typeService);
+                break;
+            case "3":
+                if (typeRoom === "Villa")
+                    totalPayments = 500 * parseInt(rentDay) * (1 - parseInt(discount) / 100);
+                if (typeRoom === "House")
+                    totalPayments = 300 * parseInt(rentDay) * (1 - parseInt(discount) / 100);
+                if (typeRoom === "Room")
+                    totalPayments = 100 * parseInt(rentDay) * (1 - parseInt(discount) / 100);
+                switch (address) {
+                    case "Đà Nẵng":
+                        totalPayments -= 20;
+                        break;
+                    case "Huế":
+                        totalPayments -= 10;
+                        break;
+                    case "Quảng Nam":
+                        totalPayments -= 5;
+                        break;
+                }
+                if (rentDay >= 2)
+                    totalPayments -= 10;
+                else if (rentDay >= 5)
+                    totalPayments -= 20;
+                else if (rentDay >= 7)
+                    totalPayments -= 30;
+                switch (type) {
+                    case "Diamond ":
+                        totalPayments -= 15;
+                        break;
+                    case "Platium":
+                        totalPayments -= 10;
+                        break;
+                    case "Gold":
+                        totalPayments -= 5;
+                        break;
+                    case "Silver":
+                        totalPayments -= 2;
+                        break;
+                    case "Member":
+                        break;
+                }
+                let currentYear = new Date().getFullYear();
+                let birthdayCustomer = new Date(birthday).getFullYear();
+                let ageCustomer = currentYear - birthdayCustomer;
+                if (ageCustomer >= 20 && address === "Đà Nẵng")
+                    if (ageCustomer > 30 && address === "Đà Nẵng")
+                        totalPayments -= 2;
+                    else totalPayments -= 1;
+                alert(totalPayments);
+                break;
+        }
+        choose = prompt(
+            "1. Show information: \n" +
+            "2. Edit information: \n" +
+            "3. Show the amount to be paid after discount \n" +
+            "4. Show"
+        );
+    }
+
+</script>
+
 </body>
 </html>

@@ -2,9 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<input id="kq" type="text">
+<br>
+<button onclick="nhapSo(1)"> 1 </button>
+<button onclick="nhapSo(2)"> 2 </button>
+<button onclick="nhapSo(3)"> 3 </button>
+<button onclick="tinhToan('+')"> + </button>
+<br>
+<button onclick="nhapSo(4)"> 4 </button>
+<button onclick="nhapSo(5)"> 5 </button>
+<button onclick="nhapSo(6)"> 6 </button>
+<button onclick="tinhToan('-')"> - </button>
+<br>
+<button onclick="nhapSo(7)"> 7 </button>
+<button onclick="nhapSo(8)"> 8 </button>
+<button onclick="nhapSo(9)"> 9 </button>
+<button onclick="tinhToan('x')"> x </button>
+<br>
+<button onclick="tinhToan('C')"> C </button>
+<button onclick="nhapSo(0)"> 0 </button>
+<button onclick="tinhToan('=')"> = </button>
+<button onclick="tinhToan('/')"> / </button>
+
+
+<script>
+    let kq = "";
+    let x1 = 0;
+    let x2 = 0;
+    let result = 0;
+    let toanTu = "";
+
+    function nhapSo(so) {
+        document.getElementById("kq").value += so;
+    }
+
+    function tinhToan(phepTinh) {
+        switch (phepTinh) {
+            case "+":
+                if ((x2=document.getElementById("kq")) === "")
+                    x2 = 0;
+                x2 = parseFloat(document.getElementById("kq").value);
+                x1 += x2;
+                result += x1;
+                kq = result;
+                toanTu = "+";
+                document.getElementById("kq").value = "";
+
+                break;
+            case "-":
+                x2 = parseFloat(document.getElementById("kq").value);
+                x1 -= x2;
+                kq -= x1;
+                toanTu = "-";
+                document.getElementById("kq").value = "";
+                break;
+            case "*":
+                x2 = parseFloat(document.getElementById("kq").value);
+                x1 *= x2;
+                kq *= x1;
+                toanTu = "*";
+                document.getElementById("kq").value = "";
+                break;
+            case "/":
+                x2 = parseFloat(document.getElementById("kq").value);
+                x1 /= x2;
+                kq /= x1;
+                toanTu = "/";
+                document.getElementById("kq").value = "";
+                break;
+            case "C":
+                kq = "";
+                x1 = 0;
+                x2 = 0;
+                result = 0;
+                toanTu = "";
+                document.getElementById("kq").value = "";
+                break;
+            case "=":
+                x2 = document.getElementById("kq").value;
+                switch (toanTu) {
+                    case "+":
+                        result = x1 + parseFloat(x2);
+                        break;
+                    case "-":
+                        result = x1 - parseFloat(x2);
+                        break;
+                    case "*":
+                        result = x1 * parseFloat(x2);
+                        break;
+                    case "/":
+                        result = x1 / parseFloat(x2);
+                        break;
+                }
+                kq = result;
+                toanTu = "";
+                document.getElementById("kq").value = kq;
+                x1 = 0;
+                x2 = 0;
+                break;
+        }
+    }
+</script>
 </body>
 </html>

@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let nhietDo = parseInt(prompt("Nhập nhiệt độ: "));
+    while (nhietDo > 100)  {
+        nhietDo = parseInt(prompt("Bạn phải giảm nhiệt độ: "));
+    }
+    while (nhietDo < 20)  {
+        nhietDo = parseInt(prompt("Bạn phải tăng nhiệt độ: "));
+    }
+    document.writeln("Nhiệt độ là: " + nhietDo);
+</script>
+
 </body>
 </html>

@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let num = parseInt(prompt("Nhập số số muốn hiện của dãy fibonacci: "));
+    let a = 3;
+    if (num === 1) {
+        document.write("1");
+    }
+    if (num >= 2) {
+        document.write("1, 1");
+    }
+    for (let i = 1, j = 1; a <= num;) {
+        let x = i;
+        i += j;
+        j = x;
+        a++;
+        document.write(", " + i);
+    }
+</script>
+
 </body>
 </html>

@@ -2,9 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let num = parseInt(prompt("Số số nguyên tố muốn hiển thị: "));
+    let a = 2;
+    let kiemTra = 3;
+    let snt = true;
+    if (num === 1)
+        document.writeln(2);
+    if (num >= 2) {
+        document.writeln(2);
+        while (a <= num) {
+            for (let i = 3; i <= kiemTra / 2; i += 2) {
+                if (kiemTra % i === 0) {
+                    snt = false;
+                    break;
+                }
+            }
+            if (snt) {
+                document.writeln(kiemTra);
+                a++;
+            }
+            snt = true;
+            kiemTra += 2;
+        }
+    }
+
+</script>
+
 </body>
 </html>

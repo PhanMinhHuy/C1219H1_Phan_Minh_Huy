@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let weight = parseFloat(prompt("Nhap can nang: (kg)"));
+    let hight = parseFloat(prompt("Nhap chiu cao: (m)"));
+    let bmi = weight / (hight * hight);
+    if (bmi < 18.5)
+        document.write("Underweight");
+    else if (bmi <= 25)
+        document.write("Normal");
+    else if (bmi <= 30.0)
+        document.write("Overweight");
+    else
+        document.write("Obese");
+
+</script>
 </body>
 </html>

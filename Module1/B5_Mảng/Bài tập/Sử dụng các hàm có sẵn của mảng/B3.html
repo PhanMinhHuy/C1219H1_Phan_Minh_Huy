@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let string = prompt("Enter somthing: ");
+    let a = [];
+    let UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    for (let i = 0; i < string.length; i++) {
+        if (UPPER.indexOf(string[i]) !== -1) {
+            a.push(string[i].toLowerCase());
+            continue;
+        }
+        if (LOWER.indexOf(string[i]) !== -1) {
+            a.push(string[i].toUpperCase());
+        } else a.push(string[i]);
+    }
+    document.write(a.join(""));
+</script>
+
 </body>
 </html>

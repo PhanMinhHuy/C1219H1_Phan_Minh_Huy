@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<script>
+    let tuCanDich = prompt("Nhập từ cần dịch: ");
+    let english = ["account", "access", "special", "skill", "bread"];
+    let vietnamese = ["tài khoản", "truy cập", "đặc biệt", "kĩ năng", "bánh mì"];
+    let x = true;
+    for (let i = 0; i < english.length; i++) {
+        if (tuCanDich === english[i]) {
+            document.write(vietnamese[i]);
+            x = true;
+            break;
+        } else x = false;
+    }
+    if (x) {
+    }
+    else alert("Can't translate");
+</script>
+
 </body>
 </html>
