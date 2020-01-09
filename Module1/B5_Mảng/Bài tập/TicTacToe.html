@@ -15,40 +15,16 @@
     let board = [];
     let data = "";
     for (let i = 0; i < 10; i++) {
-        board[i] = [".", ".", ".", ".", ".", ".", ".", ".", ".", "."];
+        board[i] = [". ", ". ", ". ", ". ", ". ", ". ", ". ", ". ", ". ", ". "];
     }
 
     for (let i = 0; i < 10; i++) {
         data += "<br>";
         for (let j = 0; j < 10; j++) {
-            data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+            data += board[i][j] + "&nbsp;&nbsp;&nbsp;";
         }
     }
     b.innerHTML = data;
-    // for (let i = 0; i < 10; i++) {
-    //     for (let j = 0; j < 10; j++) {
-    //         if (board[i][j] === board[i + 1][j] === board[i + 2][j] === board[i + 3][j] === board[i + 4][j]) {
-    //             if (board[i] === "x")
-    //                 alert("Player 1 WWin");
-    //             else alert("Player 2 WWin");
-    //         }
-    //         if (board[i][j] === board[i][j + 1] === board[i][j + 2] === board[i][j + 3] === board[i][j + 4]) {
-    //             if (board[i] === "x")
-    //                 alert("Player 1 WWin");
-    //             else alert("Player 2 WWin");
-    //         }
-    //         if (board[i][j] === board[i + 1][j + 1] === board[i + 2][j + 2] === board[i + 3][j + 3] === board[i + 4][j + 4]) {
-    //             if (board[i] === "x")
-    //                 alert("Player 1 WWin");
-    //             else alert("Player 2 WWin");
-    //         }
-    //         if (board[i][j] === board[i - 1][j - 1] === board[i - 2][j - 2] === board[i - 3][j - 3] === board[i - 4][j - 4]) {
-    //             if (board[i] === "x")
-    //                 alert("Player 1 WWin");
-    //             else alert("Player 2 WWin");
-    //         }
-    //     }
-    // }
 
     function changeValue(x) {
         let positionX = prompt("X: ");
@@ -58,20 +34,43 @@
         for (let i = 0; i < 10; i++) {
             data += "<br>";
             for (let j = 0; j < 10; j++) {
-                data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
-                if (board[i][j] === board[i + 1][j] === board[i + 2][j] === board[i + 3][j] === board[i + 4][j])
-                    if (board[i] === "x")
-                        alert("Player 1 WWin");
-                    else alert("Player 2 WWin");
-                if (board[i][j] === board[i][j + 1] === board[i][j + 2] === board[i][j + 3] === board[i][j + 4])
-                    if (board[i] === "x")
-                        alert("Player 1 WWin");
-                    else alert("Player 2 WWin");
-
-                }
+                data += board[i][j] + "&nbsp;&nbsp;&nbsp;";
             }
         }
         b.innerHTML = "<hr>" + data;
+        for (let i = 0; i < 10; i++) {
+            for (let j = 0; j < 10; j++) {
+                if (board[i][j] === board[i + 1][j] && board[i][j] === board[i + 2][j] && board[i][j] === board[i + 3][j] && board[i][j] === board[i + 4][j] && board[i][j] !== ". ") {
+                    if (board[i][j] === "x")
+                        alert("Player 1 WWin");
+                    if (board[i][j] === "0")
+                        alert("Player 2 WWin");
+                    break;
+                }
+                if (board[i][j] === board[i][j + 1] && board[i][j] === board[i][j + 2] && board[i][j] === board[i][j + 3] && board[i][j] === board[i][j + 4] && board[i][j] !== ". ") {
+                    if (board[i][j] === "x")
+                        alert("Player 1 WWin");
+                    if (board[i][j] === "0")
+                        alert("Player 2 WWin");
+                    break;
+                }
+                if (board[i][j] === board[i + 1][j + 1] && board[i][j] === board[i + 2][j + 2] && board[i][j] === board[i + 3][j + 3] && board[i][j] === board[i + 4][j + 4] && board[i][j] !== ". ") {
+                    if (board[i][j] === "x")
+                        alert("Player 1 WWin");
+                    if (board[i][j] === "0")
+                        alert("Player 2 WWin");
+                    break;
+                }
+                if (board[i][j] === board[i + 1][j - 1] && board[i][j] === board[i + 2][j - 2] && board[i][j] === board[i + 3][j - 3] && board[i][j] === board[i + 4][j - 4] && board[i][j] !== ". ") {
+                    if (board[i][j] === "x")
+                        alert("Player 1 WWin");
+                    if (board[i][j] === "0")
+                        alert("Player 2 WWin");
+                    break;
+                }
+            }
+        }
+    }
 </script>
 </body>
 </html>
