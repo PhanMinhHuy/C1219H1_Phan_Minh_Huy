@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>Số nguyên tố nhỏ hơn 10000</h3>
+<script>
+    let x = 3;
+
+    function kiemTraSoNguyenTo(a) {
+        for (let i = 3; i < a / 2; i += 2) {
+            if (a % i === 0)
+                return false;
+        }
+        return true;
+    }
+    while (x<10000) {
+        if (kiemTraSoNguyenTo(x))
+            document.write(x + " ");
+        x+=2;
+    }
+</script>
+
+</body>
+</html>

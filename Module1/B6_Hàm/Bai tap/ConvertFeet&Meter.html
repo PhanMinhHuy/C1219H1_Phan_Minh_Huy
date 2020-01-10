@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table >
+    <tr>
+        <th>Feet</th>
+        <th></th>
+        <th>Meter</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="Feet" value=""></td>
+        <td><input type="button" onclick="convert()" value="Convert"></td>
+        <td><input type="text" id="Meter" value=""></td>
+    </tr>
+
+</table>
+<script>
+
+    function convert() {
+        let feet =document.getElementById("Feet").value;
+        let meter =document.getElementById("Meter").value;
+        switch ("") {
+            case feet:
+                feet = 3.279 * parseFloat(meter);
+
+                break;
+            case  meter:
+                meter = 0.305 * parseFloat(feet);
+                break;
+            default:
+                alert("Nhập 1 số");
+        }
+    }
+</script>
+
+</body>
+</html>
