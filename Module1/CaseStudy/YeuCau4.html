@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let arrNameCustomers = ["Huy", "Hùng", "Thọ", "Tuấn", "Thiện", "My", "Tịnh", "Hoàng", "Tùng", "Khánh"];
+    let choose;
+    let result;
+    do {
+        choose = prompt(
+            "1. Add New Customer \n" +
+            "2. Delete Customer \n" +
+            "3. Show Customer \n" +
+            "4. Exit");
+        switch (choose) {
+            case "1":
+                let newCustomerNumber = prompt("Nunmber of new customer: ");
+                for (let i = 0; i < newCustomerNumber; i++) {
+                    arrNameCustomers.push(prompt("New customer " + (i + 1)));
+                }
+                break;
+            case  "2":
+                alertResult(arrNameCustomers);
+                let chooseDelete = parseInt(prompt("Choose customer delete: \n" + result));
+                let arrNameCustomersNew = [];
+                for (let i = 0; i < arrNameCustomers.length; i++) {
+                    if (i === (chooseDelete - 1))
+                        continue;
+                    arrNameCustomersNew.push(arrNameCustomers[i]);
+                }
+                arrNameCustomers = arrNameCustomersNew;
+                alert("Customer after delete \n" + alertResult(arrNameCustomers));
+                break;
+            case "3":
+                alert("Customer \n" + alertResult(arrNameCustomers));
+                break;
+        }
+    }
+    while (choose !== "4")
+
+    function alertResult(a) {
+        result = "";
+        a.sort();
+        for (let i = 0; i < a.length; i++) {
+            result += (i + 1) + ". " + a[i] + "\n";
+        }
+        return result;
+    }
+
+</script>
+
+</body>
+</html>

@@ -8,6 +8,7 @@
 
 <script>
     let name = prompt(" Enter name: ");
+    name = chuanHoa(name);
     let Id = prompt(" Enter Id: ");
     let regexId = /^[0-9]+$/g;
     while (regexId.test(Id) === false)
@@ -21,6 +22,7 @@
     while (regexEmail.test(email) === false)
         email = prompt("Failed !!\nEnter Email again: ");
     let address = prompt(" Enter address: ");
+    address = chuanHoa(address);
     let type = prompt(" Enter type: \n (Diamond, Platinum, Gold, Silver, Member) ");
     let discount = parseFloat(prompt(" Enter discount: "));
     let numberOfGuests = prompt(" Enter number of guests: ");
@@ -54,7 +56,21 @@
         "\nType Service: " + typeService +
         "\nTotal Payments: " + totalPayments);
 
-
+    function chuanHoa(str) {
+        let strStrandard = "";
+        str = str.trim().toLocaleLowerCase();
+        for (let i = 0; i < str.length; i++) {
+            if (str.charAt(i) === " " && str.charAt(i + 1) === " ") {
+                continue;
+            }
+            if (i === 0 || str.charAt(i - 1) === " ") {
+                strStrandard += str.charAt(i).toUpperCase();
+                continue;
+            }
+            strStrandard += str.charAt(i);
+        }
+        return strStrandard;
+    }
 </script>
 
 </body>

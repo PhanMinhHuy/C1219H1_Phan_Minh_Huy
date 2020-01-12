@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-<table >
+<table>
     <tr>
         <th>Feet</th>
         <th></th>
@@ -21,15 +21,14 @@
 <script>
 
     function convert() {
-        let feet =document.getElementById("Feet").value;
-        let meter =document.getElementById("Meter").value;
+        let feet = document.getElementById("Feet").value;
+        let meter = document.getElementById("Meter").value;
         switch ("") {
             case feet:
-                feet = 3.279 * parseFloat(meter);
-
+                document.getElementById("Feet").value = 3.279 * parseFloat(meter);
                 break;
             case  meter:
-                meter = 0.305 * parseFloat(feet);
+                document.getElementById("Meter").value = 0.305 * parseFloat(feet);
                 break;
             default:
                 alert("Nhập 1 số");

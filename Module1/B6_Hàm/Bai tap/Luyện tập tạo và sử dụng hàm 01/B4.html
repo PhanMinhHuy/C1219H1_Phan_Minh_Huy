@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="alert('Giá trị sau khi gọi hàm: ' + result)" >Click</button>
+<script>
+    function addNumbers() {
+        alert("Giá trị trước khi gọi hàm: " + result);
+        let firstNum = 4;
+        let secondNum = 8;
+        result = firstNum + secondNum;
+        return result;
+    }
+    let result = 0;
+    result = addNumbers();
+</script>
+</body>
+</html>

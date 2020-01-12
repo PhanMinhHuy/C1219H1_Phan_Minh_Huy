@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<p>a= <input type="number" id="Num1"></p>
+<p>b= <input type="number" id="Num2"></p>
+<br>
+<button onclick="doIt()">Click!!</button>
+<script>
+    function doIt() {
+        let a = parseInt(document.getElementById("Num1").value);
+        let b = parseInt(document.getElementById("Num2").value);
+        soSanh(a, b) ;
+    }
+
+    function soSanh(x, y) {
+        if (x > y) {
+            alert("???");
+        } else {
+            let sum = parseInt(x) + parseInt(y);
+            return alert("Tổng 2 số: " + sum);
+        }
+    }
+</script>
+</body>
+</html>
