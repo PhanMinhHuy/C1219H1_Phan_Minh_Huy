@@ -1,133 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c418e21a-fcf9-4b8f-943d-9f13c1406f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/Luyện tập tạo và sử dụng hàm 01/B1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/Luyện tập tạo và sử dụng hàm 01/B2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/Luyện tập tạo và sử dụng hàm 01/B3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/Luyện tập tạo và sử dụng hàm 01/B4.html" afterDir="false" />
+    <list default="true" id="6b9caebe-34db-4db7-860d-f64d70d1f706" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Bài Tập/Mo ta dien thoai/ClassMobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Bài Tập/Mo ta dien thoai/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Bài Tập/Mo ta dien thoai/XayDungLopMoTaDienThoai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Bài Tập/XayDungLopMoTaHinhChuNhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Bài Tập/XayDungLopMoTaTemperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Thực hành/XayDungLopDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/B7_Lập Trình Hướng Đối Tượng/Thực hành/th.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau5/Run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau5/YeuCau5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau5/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau6/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau6/Yeucau6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/CaseStudy/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Thi thực hành/Câu 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Thi thực hành/Câu 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Thi thực hành/Câu 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1/Thi thực hành/Câu 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C1219H1_Phan_Minh_Huy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/ConvertFeet&amp;Meter.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/B6_Hàm/Bai tap/ConvertFeet&amp;Meter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1/CaseStudy/YeuCau4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1WEohdClZqkPPb7o6U1cGKTAh9U" />
+  <component name="ProjectId" id="1Xuv038loB9Iqlht2MmzorODvIe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RunManager" selected="JavaScript Debug.B4.html">
-    <configuration name="B4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B6_Hàm/Bai tap/Luyện tập tạo và sử dụng hàm 01/B4.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="ConvertFeet&amp;Meter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B6_Hàm/Bai tap/ConvertFeet&amp;Meter.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="KiemTraSoNguyenTo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B6_Hàm/Bai tap/KiemTraSoNguyenTo.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="TaoBanCoCaro.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Thực hành/TaoBanCoCaro.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="TicTacToe.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Bài tập/TicTacToe.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Tạo và thao tác với mảng.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/C1219H1_Phan_Minh_Huy/Module1/B5_Mảng/Thực hành/Tạo và thao tác với mảng.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.B4.html" />
-        <item itemvalue="JavaScript Debug.ConvertFeet&amp;Meter.html" />
-        <item itemvalue="JavaScript Debug.KiemTraSoNguyenTo.html" />
-        <item itemvalue="JavaScript Debug.TicTacToe.html" />
-        <item itemvalue="JavaScript Debug.TaoBanCoCaro.html" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c418e21a-fcf9-4b8f-943d-9f13c1406f4d" name="Default Changelist" comment="" />
-      <created>1577324747845</created>
+      <changelist id="6b9caebe-34db-4db7-860d-f64d70d1f706" name="Default Changelist" comment="" />
+      <created>1581908567322</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577324747845</updated>
-      <workItem from="1577324753234" duration="5343000" />
-      <workItem from="1577381962247" duration="778000" />
-      <workItem from="1577411419076" duration="11504000" />
-      <workItem from="1577598956503" duration="5177000" />
-      <workItem from="1577668560517" duration="8654000" />
-      <workItem from="1577695756066" duration="2354000" />
-      <workItem from="1577773159082" duration="9863000" />
-      <workItem from="1577927756283" duration="8306000" />
-      <workItem from="1577936317195" duration="4219000" />
-      <workItem from="1577991089088" duration="583000" />
-      <workItem from="1578013837503" duration="8336000" />
-      <workItem from="1578039196812" duration="2531000" />
-      <workItem from="1578273915246" duration="219000" />
-      <workItem from="1578274268095" duration="10258000" />
-      <workItem from="1578360171942" duration="7493000" />
-      <workItem from="1578418295510" duration="2528000" />
-      <workItem from="1578446142936" duration="12835000" />
-      <workItem from="1578538821642" duration="2023000" />
-      <workItem from="1578623244842" duration="6958000" />
-      <workItem from="1578723965136" duration="158000" />
-      <workItem from="1578724242272" duration="162000" />
-      <workItem from="1578724422653" duration="422000" />
+      <updated>1581908567322</updated>
+      <workItem from="1581908569926" duration="110000" />
     </task>
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1581908676251">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581908676251" />
+    <state x="209" y="34" key="new project wizard" timestamp="1581908678295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581908678295" />
   </component>
 </project>

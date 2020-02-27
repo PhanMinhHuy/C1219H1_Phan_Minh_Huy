@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<canvas id="myCanvas" width="1000" height="500" style="border:5px solid #d3d3d3;"></canvas>
+<br>
+<button onclick='hcn.createRectangle()'>Show</button>
+<button onclick="alert(hcn.getArea())">Area</button>
+<button onclick="alert(hcn.getPerimeter())">Perimeter</button>
+<script>
+    let hcn = new Rectangle(prompt("Enter width: "), prompt("Enter height: "));
+
+    function Rectangle(width, height) {
+        this.width = width;
+        this.height = height;
+        this.getArea = function () {
+            return parseInt(width) * parseInt(height);
+        };
+        this.getPerimeter = function () {
+            return 2 * (parseInt(width) + parseInt(height));
+        };
+        this.createRectangle = function () {
+            let ctx = document.getElementById("myCanvas").getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(200, 200, hcn.width, hcn.height);
+        }
+    }
+</script>
+
+</body>
+</html>

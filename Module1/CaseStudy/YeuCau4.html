@@ -24,8 +24,7 @@
                 }
                 break;
             case  "2":
-                alertResult(arrNameCustomers);
-                let chooseDelete = parseInt(prompt("Choose customer delete: \n" + result));
+                let chooseDelete = parseInt(prompt("Choose customer delete: \n" + alertResult(arrNameCustomers)));
                 let arrNameCustomersNew = [];
                 for (let i = 0; i < arrNameCustomers.length; i++) {
                     if (i === (chooseDelete - 1))
@@ -40,7 +39,7 @@
                 break;
         }
     }
-    while (choose !== "4")
+    while (choose !== "4");
 
     function alertResult(a) {
         result = "";

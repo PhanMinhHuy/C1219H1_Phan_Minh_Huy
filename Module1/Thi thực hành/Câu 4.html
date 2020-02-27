@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let HocSinh = function () {
+        this.setStt = function (Stt) {
+            this.Stt = Stt;
+        };
+        this.getStt = function () {
+            return this.Stt;
+        };
+        this.setHoVaTen = function (HoVaTen) {
+            this.HoVaTen = HoVaTen;
+        };
+        this.getHoVaTen = function () {
+            return this.HoVaTen;
+        };
+        this.setNgaySinh = function (NgaySinh) {
+            this.NgaySinh = NgaySinh;
+        };
+        this.getNgaySinh = function () {
+            return this.NgaySinh;
+        };
+        this.setDiemTrungBinh = function (DiemTrungBinh) {
+            this.DiemTrungBinh = DiemTrungBinh;
+        };
+        this.getDiemTrungBinh = function () {
+            return this.DiemTrungBinh;
+        };
+        this.display = function () {
+            let display = "Số thứ tự: " + this.getStt() +
+                          "\nHọ và tên: " + this.getHoVaTen() +
+                          "\nNgày sinh: " + this.getNgaySinh() +
+                          "\nĐiểm trung bình: " + this.getDiemTrungBinh() ;
+            return display;
+        };
+        this.kiemTra = function () {
+            if (this.getDiemTrungBinh() < 3.5)
+                return "Học sinh KÉM";
+            else if (this.getDiemTrungBinh() < 5)
+                return "Học sinh YẾU";
+            else if (this.getDiemTrungBinh() < 6.5)
+                return "Học sinh TRUNG BÌNH";
+            else if (this.getDiemTrungBinh() < 8)
+                return "Học sinh KHÁ";
+            else return "Học sinh GIỎI";
+        }
+    };
+    let Huy = new HocSinh();
+    Huy.setStt(5);
+    Huy.setHoVaTen("Phan Minh Huy");
+    Huy.setNgaySinh("15/09/1999");
+    Huy.setDiemTrungBinh(6.5);
+    alert(Huy.display());
+    alert(Huy.kiemTra());
+</script>
+</body>
+</html>

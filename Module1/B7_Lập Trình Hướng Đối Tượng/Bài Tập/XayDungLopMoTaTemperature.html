@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<input type="number" id="Temperature"> <br>
+<button onclick="alert(tem1.getTem())">  C   </button>
+<button onclick="alert(tem1.convertCtoF())">  F   </button>
+<button onclick="alert(tem1.convertCtoK())">  K   </button>
+<script>
+    let Temperature = function () {
+        this.setTem = function (temC) {
+            this.temC = document.getElementById("Temperature").value ;
+        };
+        this.getTem = function () {
+            this.setTem();
+            return this.temC;
+        };
+        this.convertCtoF = function () {
+            this.setTem();
+            return this.getTem()*1.8 +32;
+        };
+        this.convertCtoK = function () {
+            this.setTem();
+            return this.getTem()*1 + 273.15;
+        };
+    };
+    let tem1 = new Temperature ();
+
+</script>
+
+</body>
+</html>

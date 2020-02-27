@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let array = [1, 5, 3, 0, 10, 6, 9, 3, 2, 10];
+    let max = 0;
+    let index;
+    function findMaxScore(x) {
+        for (let i = 1; i < x.length; i++) {
+            if (x[i] >= max) {
+                max = x[i];
+                index = i;
+            }
+        }
+    }
+    findMaxScore(array);
+    let display = "Số lớn nhất: " + max + "\nVị trí số lớn nhất: " + index;
+    alert(display);
+</script>
+</body>
+</html>
