@@ -1,0 +1,6 @@
+[ID, Service Name, Area Used, Rental Costs, Max People, Rent Type, Standard Room, Convenient Description, Area Pool, Number Of Floors]
+111,huy,1000.0,40.0,4,,12,123,412.0,12
+20,vl,30.0,12.0,3,csa,qwe,asd,20.0,3
+SVVL-1509,Huy,40.0,20.0,4,Vip,Asd,ngu,45.0,2
+SVVL-1599,Huy,50.0,30.0,5,Nha,Vl,tuy,60.0,1
+SVVL-2703,Ly,100.0,50.0,5,Nc,Y,lymeo,90.0,3

@@ -1,0 +1,130 @@
+create database Furama_Resort;
+use furama_resort;
+CREATE TABLE ViTri
+(
+  IDViTri INT NOT NULL,
+  TenViTri VARCHAR(45) NOT NULL,
+  PRIMARY KEY (IDViTri)
+);
+
+CREATE TABLE TrinhDo
+(
+  IDTrinhDo INT NOT NULL,
+  TrinhDo VARCHAR(45) NOT NULL,
+  PRIMARY KEY (IDTrinhDo)
+);
+
+CREATE TABLE BoPhan
+(
+  IDBoPhan INT NOT NULL,
+  TenBoPhan VARCHAR(45) NOT NULL,
+  PRIMARY KEY (IDBoPhan)
+);
+
+CREATE TABLE NhanVien
+(
+  IDNhanVien INT NOT NULL,
+  HoTen VARCHAR(45) NOT NULL,
+  NgaySinh DATE NOT NULL,
+  CMND VARCHAR(45) NOT NULL,
+  Luong VARCHAR(45) NOT NULL,
+  SDT VARCHAR(45) NOT NULL,
+  Email VARCHAR(45) NOT NULL,
+  DiaChi VARCHAR(45) NOT NULL,
+  IDViTri INT NOT NULL,
+  IDTrinhDo INT NOT NULL,
+  IDBoPhan INT NOT NULL,
+  PRIMARY KEY (IDNhanVien),
+  FOREIGN KEY (IDViTri) REFERENCES ViTri(IDViTri),
+  FOREIGN KEY (IDTrinhDo) REFERENCES TrinhDo(IDTrinhDo),
+  FOREIGN KEY (IDBoPhan) REFERENCES BoPhan(IDBoPhan)
+);
+
+CREATE TABLE LoaiKhach
+(
+  IDLoaiKhach INT NOT NULL,
+  TenLoaiKhach VARCHAR(45) NOT NULL,
+  PRIMARY KEY (IDLoaiKhach)
+);
+
+CREATE TABLE KhachHang
+(
+  IDKhachHang INT NOT NULL,
+  HoTen VARCHAR(45) NOT NULL,
+  NgaySinh DATE NOT NULL,
+  CMND VARCHAR(45) NOT NULL,
+  SDT VARCHAR(45) NOT NULL,
+  Email VARCHAR(45) NOT NULL,
+  DiaChi VARCHAR(45) NOT NULL,
+  IDLoaiKhach INT NOT NULL,
+  PRIMARY KEY (IDKhachHang),
+  FOREIGN KEY (IDLoaiKhach) REFERENCES LoaiKhach(IDLoaiKhach)
+);
+
+CREATE TABLE KieuThue
+(
+  IDKieuThue INT NOT NULL,
+  TenKieuThue VARCHAR(45) NOT NULL,
+  Gia INT NOT NULL,
+  PRIMARY KEY (IDKieuThue)
+);
+
+CREATE TABLE LoaiDichVu
+(
+  IDLoaiDichVu INT NOT NULL,
+  TenLoaiDichVu VARCHAR(45) NOT NULL,
+  PRIMARY KEY (IDLoaiDichVu)
+);
+
+CREATE TABLE DichVu
+( 
+  IDDichVu INT NOT NULL,
+  TenDichVu VARCHAR(45) NOT NULL,
+  DienTich INT NOT NULL,
+  SoTang INT NOT NULL,
+  SoNguoiToiDa INT NOT NULL,
+  ChiPhiThue VARCHAR(45) NOT NULL,
+  TrangThai VARCHAR(45) NOT NULL,
+  IDKieuThue INT NOT NULL,
+  IDLoaiDichVu INT NOT NULL,
+  PRIMARY KEY (IDDichVu),
+  FOREIGN KEY (IDKieuThue) REFERENCES KieuThue(IDKieuThue),
+  FOREIGN KEY (IDLoaiDichVu) REFERENCES LoaiDichVu(IDLoaiDichVu)
+);
+
+CREATE TABLE DichVuDiKem
+(
+  IDDichVuDiKem INT NOT NULL,
+  TenDichVuDiKem VARCHAR(45) NOT NULL,
+  Gia INT NOT NULL,
+  DonVi INT NOT NULL,
+  TrangThaiKhaDung INT NOT NULL,
+  PRIMARY KEY (IDDichVuDiKem)
+);
+
+CREATE TABLE HopDong
+(
+  IDHopDong INT NOT NULL,
+  NgayLamHopDong DATE NOT NULL,
+  NgayKetThuc DATE NOT NULL,
+  TienDatCoc INT NOT NULL,
+  TongTien INT NOT NULL,
+  IDNhanVien INT NOT NULL,
+  IDKhachHang INT NOT NULL,
+  IDDichVu INT NOT NULL,
+  PRIMARY KEY (IDHopDong),
+  FOREIGN KEY (IDNhanVien) REFERENCES NhanVien(IDNhanVien),
+  FOREIGN KEY (IDKhachHang) REFERENCES KhachHang(IDKhachHang),
+  FOREIGN KEY (IDDichVu) REFERENCES DichVu(IDDichVu)
+);
+
+CREATE TABLE HopDongChiTiet
+(
+  IDHopDongChiTiet INT NOT NULL,
+  SoLuong INT NOT NULL,
+  IDHopDong INT NOT NULL,
+  IDDichVuDiKem INT NOT NULL,
+  PRIMARY KEY (IDHopDongChiTiet),
+  FOREIGN KEY (IDHopDong) REFERENCES HopDong(IDHopDong),
+  FOREIGN KEY (IDDichVuDiKem) REFERENCES DichVuDiKem(IDDichVuDiKem)
+);
