@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-impl-1.2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/docs/appdev/sample/src" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/classes" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/webapps/examples/jsp/plugin/applet" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/work/Catalina/localhost/ROOT" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/work/Catalina/localhost/host-manager" />
+      <root url="file://$PROJECT_DIR$/../../../../apache-tomcat-9.0.33/work/Catalina/localhost/manager" />
+    </SOURCES>
+  </library>
+</component>
