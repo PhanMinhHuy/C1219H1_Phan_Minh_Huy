@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="taglibs-standard-impl-1.2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../apache-tomcat-9.0.33/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../CaseStudy_Module2_FuramaResort/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../../TongQuanUngDungWeb/ProductDiscountCalculator/src" />
+      <root url="file://$PROJECT_DIR$/../../TongQuanUngDungWeb/java-web-currency-converter/src" />
+      <root url="file://$PROJECT_DIR$/../../TongQuanUngDungWeb/server_time/src" />
+      <root url="file://$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_dictionary/src" />
+      <root url="file://$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_login/src" />
+      <root url="file://$PROJECT_DIR$/../../../server_time/src" />
+    </SOURCES>
+  </library>
+</component>

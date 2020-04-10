@@ -21,13 +21,13 @@ where (timestampdiff(YEAR, ngay_sinh, curdate()) between 18 and 50) and (dia_chi
 Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng.
 Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”. */
 
-select khach_hang.*, hop_dong.id_hop_dong,  count(hop_dong.id_hop_dong) as 'so_lan_dat_phong'
+select khach_hang.*, hop_dong.id_hop_dong,  count(hop_dong.id_hop_dong) as so_lan_dat_phong
 from khach_hang
 inner join hop_dong on khach_hang.id_khach_hang = hop_dong.id_khach_hang 
 inner join loai_khach on khach_hang.id_loai_khach = loai_khach.id_loai_khach
 where loai_khach.ten_loai_khach = 'Diamond'
 group by khach_hang.ho_ten
-order by 'so_lan_dat_phong';
+order by so_lan_dat_phong;
 
 /*task 5. Hiển thị IDKhachHang, HoTen, TenLoaiKhach, IDHopDong, TenDichVu, NgayLamHopDong, NgayKetThuc, TongTien 
 (Với TongTien được tính theo công thức như sau: ChiPhiThue + SoLuong*Gia, với SoLuong và Giá là từ bảng DichVuDiKem) 
@@ -88,10 +88,11 @@ union select khach_hang.ho_ten from khach_hang;
 /*task 9. Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 
 2019 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.*/
 
-select id_hop_dong, month(ngay_lam_hop_dong) as thang, count(id_hop_dong) as so_lan_dat
+select month(ngay_lam_hop_dong) as thang, count(id_hop_dong) as so_lan_dat
 from hop_dong
 where year(ngay_lam_hop_dong) = 2019
-group by thang;
+group by thang
+order by thang;
 
 /*task 10. Hiển thị thông tin tương ứng với từng Hợp đồng thì đã sử dụng bao nhiêu Dịch vụ đi kèm. 
 Kết quả hiển thị bao gồm IDHopDong, NgayLamHopDong, NgayKetthuc, TienDatCoc, SoLuongDichVuDiKem 
@@ -183,3 +184,53 @@ where id_nhan_vien not in
 /*task 17. Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, 
 chỉ cập nhật những khách hàng đã từng đặt phòng với tổng Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ.*/
 
+update hop_dong
+inner join dich_vu using (id_dich_vu)
+inner join hop_dong_chi_tiet using (id_hop_dong)
+inner join dich_vu_di_kem using (id_dich_vu_di_kem)
+set tong_tien = dich_vu.chi_phi_thue + hop_dong_chi_tiet.so_luong*dich_vu_di_kem.gia;
+
+update khach_hang set id_loai_khach = 1 
+where id_loai_khach = 2 and id_khach_hang in
+(
+	select id_khach_hang
+    from hop_dong
+	inner join dich_vu using (id_dich_vu)
+	inner join hop_dong_chi_tiet using (id_hop_dong)
+	inner join dich_vu_di_kem using (id_dich_vu_di_kem)
+    where year(ngay_lam_hop_dong) = 2019 
+    group by id_khach_hang
+    having sum(tong_tien) >= 10000000
+);
+
+-- task 18. Xóa những khách hàng có hợp đồng trước năm 2016 (chú ý ràng buộc giữa các bảng).
+
+alter table hop_dong drop FOREIGN KEY fk_khach_hang;
+alter table hop_dong add constraint fk_khach_hang FOREIGN KEY (id_khach_hang) REFERENCES khach_hang(id_khach_hang) on delete cascade;
+alter table hop_dong_chi_tiet drop FOREIGN KEY fk_hop_dong;
+alter table hop_dong_chi_tiet add constraint fk_hop_dong FOREIGN KEY (id_hop_dong) REFERENCES hop_dong(id_hop_dong) on delete cascade;
+delete khach_hang from khach_hang 
+inner join hop_dong using (id_khach_hang)
+where year(ngay_lam_hop_dong) <= 2016;
+
+-- 19.	Cập nhật giá cho các Dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2019 lên gấp đôi.
+
+update dich_vu_di_kem set gia = (gia * 2)
+where id_dich_vu_di_kem in 
+(
+	select id_dich_vu_di_kem
+    from hop_dong_chi_tiet
+    inner join hop_dong using (id_hop_dong)
+    where year(ngay_lam_hop_dong) = 2019
+    group by id_dich_vu_di_kem
+    having count(id_hop_dong_chi_tiet) >= 8
+);
+
+/* task 20. Hiển thị thông tin của tất cả các Nhân viên và Khách hàng có trong hệ thống, 
+thông tin hiển thị bao gồm ID (IDNhanVien, IDKhachHang), HoTen, Email, SoDienThoai, NgaySinh, DiaChi.*/
+
+select id_nhan_vien as ID, ho_ten, email, sdt as so_dien_thoai, ngay_sinh, dia_chi
+from nhan_vien
+union 
+select id_khach_hang, ho_ten, email, sdt, ngay_sinh, dia_chi
+from khach_hang;

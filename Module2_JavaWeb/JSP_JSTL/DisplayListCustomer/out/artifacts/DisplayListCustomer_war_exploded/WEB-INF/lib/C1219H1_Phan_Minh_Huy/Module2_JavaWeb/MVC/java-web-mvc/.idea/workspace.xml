@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5362af48-7b98-4c55-aeba-2691316508aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_module2_database/query_Furama_Resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_module2_database/query_Furama_Resort.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/#5_AdvancedObjectOrientedDesign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/BaiTap/InterfaceResizeable/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/AbstractAndInterfaceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/CircleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/CircleComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/#6_CauTrucDuLieuVaGiaiThuatCoBan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopLinkesList/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopList/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopList/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/AbstractAndInterfaceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Edible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/CircleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/CircleComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/META-INF/#6_CauTrucDuLieuVaGiaiThuatCoBan.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopList/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopList/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/BaiTap/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/BaiTap/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/META-INF/Module 2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/ThucHanh/HienThiThoiGianCuaHeThong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/ThucHanh/TimGiaTriTrongMang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/TennisGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/src/ListCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/src/ListCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/src/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/src/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/web/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer/web/CSS/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP_JSTL/java-web-currency-converter-jsp/web/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP_JSTL/java-web-currency-converter-jsp/web/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JSP_JSTL/simple_dictionary/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSP_JSTL/simple_dictionary/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/InterfaceCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/InterfaceCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/ProductDiscountCalculator/src/displayDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/ProductDiscountCalculator/src/displayDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/java-web-currency-converter/src/ConverterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/java-web-currency-converter/src/ConverterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_dictionary/src/TranslationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_dictionary/src/TranslationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/artifacts/server_time_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/server_time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/src/ServerTime_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/artifacts/simple_login_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/simple_login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/server_time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/src/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/web/indexx.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Codegym\C1219H1\C1219H1_Phan_Minh_Huy\Module2_JavaWeb\MVC\java-web-mvc\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aKTJIlN0r7ysJ0qf8kgh9Fgwyn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JSP_JSTL/DisplayListCustomer" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="java-web-mvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_33_java-web-mvc" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56846" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="java-web-mvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5362af48-7b98-4c55-aeba-2691316508aa" name="Default Changelist" comment="" />
+      <created>1586483211502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586483211502</updated>
+      <workItem from="1586483214376" duration="3321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586484334130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586484334130" />
+    <state x="473" y="155" key="FileChooserDialogImpl" timestamp="1586487131629">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586487131629" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586484380974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586484380974" />
+  </component>
+</project>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DisplayListCustomer:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f8e7a5a-4eaf-4cd7-8187-32d8f7f9dc0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_module2_database/query_Furama_Resort.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_module2_database/query_Furama_Resort.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/#5_AdvancedObjectOrientedDesign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/BaiTap/InterfaceResizeable/Resizeable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/AbstractAndInterfaceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Animal/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/CircleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/CircleComparatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#5_AdvancedObjectOrientedDesign/src/ThucHanh/Comparator/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/#6_CauTrucDuLieuVaGiaiThuatCoBan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopLinkesList/MyLinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopList/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/#6_CauTrucDuLieuVaGiaiThuatCoBan/src/ThucHanh/TrienKhaiLopList/MyListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/AbstractAndInterfaceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Chicken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Edible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Animal/Tiger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/CircleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/CircleComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#5_AdvancedObjectOrientedDesign/ThucHanh/Comparator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/BaiTap/TrienKhaiCacPhuongThucCuaLinkedList/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/META-INF/#6_CauTrucDuLieuVaGiaiThuatCoBan.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopLinkesList/MyLinkedListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopList/MyList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/#6_CauTrucDuLieuVaGiaiThuatCoBan/ThucHanh/TrienKhaiLopList/MyListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/BaiTap/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/BaiTap/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/META-INF/Module 2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/ThucHanh/HienThiThoiGianCuaHeThong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/out/production/Module 2/ThucHanh/TimGiaTriTrongMang.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module 2/src/CacLopHinhHoc/TennisGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/CSS/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/CSS/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-web-currency-converter-jsp/web/converter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../java-web-currency-converter-jsp/web/converter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple_dictionary/web/dictionary.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../simple_dictionary/web/dictionary.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/service/InterfaceCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MVC/java-web-mvc/src/service/InterfaceCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/ProductDiscountCalculator/src/displayDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/ProductDiscountCalculator/src/displayDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/java-web-currency-converter/src/ConverterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/java-web-currency-converter/src/ConverterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_dictionary/src/TranslationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TongQuanUngDungWeb/simple_dictionary/src/TranslationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/artifacts/server_time_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/server_time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/src/ServerTime_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../server_time/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/artifacts/simple_login_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/simple_login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple_login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/server_time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/src/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../server_time/web/indexx.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Codegym\C1219H1\C1219H1_Phan_Minh_Huy\Module2_JavaWeb\JSP_JSTL\DisplayListCustomer\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1aEyz6v4wJt4o1buLr0mqlgMoTm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codegym\C1219H1\C1219H1_Phan_Minh_Huy\Module2_JavaWeb\JSP_JSTL\DisplayListCustomer\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codegym\C1219H1\C1219H1_Phan_Minh_Huy\Module2_JavaWeb\JSP_JSTL\DisplayListCustomer\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <deployment>
+        <artifact name="DisplayListCustomer:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_33_DisplayListCustomer" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57693" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DisplayListCustomer:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f8e7a5a-4eaf-4cd7-8187-32d8f7f9dc0b" name="Default Changelist" comment="" />
+      <created>1586315306250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586315306250</updated>
+      <workItem from="1586315311841" duration="7497000" />
+      <workItem from="1586396311533" duration="5646000" />
+      <workItem from="1586440707709" duration="829000" />
+      <workItem from="1586482858887" duration="145000" />
+      <workItem from="1586484516174" duration="1635000" />
+      <workItem from="1586487134765" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Notifications" timestamp="1586487326998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1586487326998" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586322789431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586322789431" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1586317813949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586317813949" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586318581426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586318581426" />
+    <state x="226" y="6" key="CommitChangelistDialog2" timestamp="1586487339125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="226" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586487339125" />
+    <state x="523" y="129" width="463" height="566" key="DetectedRootsChooserDialog" timestamp="1586323263150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="129" width="463" height="566" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1586323263150" />
+    <state x="147" y="70" key="DiffContextDialog" timestamp="1586487301828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="70" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586487301828" />
+    <state x="473" y="155" key="FileChooserDialogImpl" timestamp="1586399448921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586399448921" />
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.0.center" timestamp="1586486155662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586486155662" />
+    <state width="1024" height="210" key="GridCell.Tab.0.left" timestamp="1586486155662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586486155662" />
+    <state width="1024" height="210" key="GridCell.Tab.0.right" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.1.center" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.1.left" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.1.right" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.2.bottom" timestamp="1586486155664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586486155664" />
+    <state width="1024" height="210" key="GridCell.Tab.2.center" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.2.left" timestamp="1586486155663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586486155663" />
+    <state width="1024" height="210" key="GridCell.Tab.2.right" timestamp="1586486155664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586486155664" />
+    <state width="1024" height="210" key="GridCell.Tab.3.bottom" timestamp="1586485229594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586485229594" />
+    <state width="1024" height="210" key="GridCell.Tab.3.center" timestamp="1586485229594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1586485229594" />
+    <state width="1024" height="210" key="GridCell.Tab.3.left" timestamp="1586485229594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1586485229594" />
+    <state width="1024" height="210" key="GridCell.Tab.3.right" timestamp="1586485229594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1586485229594" />
+    <state width="1024" height="210" key="GridCell.Tab.4.bottom" timestamp="1586484885126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586484885126" />
+    <state width="1024" height="210" key="GridCell.Tab.4.center" timestamp="1586484885123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1586484885123" />
+    <state width="1024" height="210" key="GridCell.Tab.4.left" timestamp="1586484885123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1586484885123" />
+    <state width="1024" height="210" key="GridCell.Tab.4.right" timestamp="1586484885124">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1586484885124" />
+    <state width="1024" height="210" key="GridCell.Tab.5.bottom" timestamp="1586484884789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.5.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586484884789" />
+    <state width="1024" height="210" key="GridCell.Tab.5.center" timestamp="1586484884788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.5.center/0.0.1536.824@0.0.1536.824" timestamp="1586484884788" />
+    <state width="1024" height="210" key="GridCell.Tab.5.left" timestamp="1586484884787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.5.left/0.0.1536.824@0.0.1536.824" timestamp="1586484884787" />
+    <state width="1024" height="210" key="GridCell.Tab.5.right" timestamp="1586484884788">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="210" key="GridCell.Tab.5.right/0.0.1536.824@0.0.1536.824" timestamp="1586484884788" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1586396531498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586396531498" />
+    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586323162531">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1586323162531" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586487315770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1586487315770" />
+    <state x="209" y="0" key="new project wizard" timestamp="1586483009048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1586483009048" />
+  </component>
+</project>
